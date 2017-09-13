@@ -11,6 +11,7 @@ module Banzai
         @filters ||= FilterArray[
           Filter::PlantumlFilter,
           Filter::SanitizationFilter,
+          Filter::MermaidFilter,
           Filter::SyntaxHighlightFilter,
 
           Filter::MathFilter,

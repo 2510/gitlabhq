@@ -51,6 +51,8 @@
           if (response.references.commands) {
             this.renderReferencedCommands(response.references.commands, $form);
           }
+
+          mermaid.init({}, preview.find('.mermaid'));
         }).bind(this));
       }
     };

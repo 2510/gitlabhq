@@ -11,6 +11,8 @@ import Pikaday from 'pikaday';
 import Dropzone from 'dropzone';
 import Sortable from 'vendor/Sortable';
 
+import mermaid from 'mermaid';
+
 // libraries with import side-effects
 import 'mousetrap';
 import 'mousetrap/plugins/pause/mousetrap-pause';
@@ -26,6 +28,7 @@ window._ = _;
 window.Pikaday = Pikaday;
 window.Dropzone = Dropzone;
 window.Sortable = Sortable;
+window.mermaid = mermaid;
 
 // shortcuts
 import './shortcuts';
